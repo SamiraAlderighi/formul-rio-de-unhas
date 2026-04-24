@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html long="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta nome="viewport" content="width=device-width, initicial-scale=1.0">
+        <link rel="stylesheet" href="formulario.css">
+        <title>Cadastro</title>
+    </head>
+    <body>
+        <div>
+            <h1 id="título">Cadastro de UNHAS</h1>
+            <p id="subtítulo">Complete suas informações</p>
+            <br>
+        </div>
+
+    <form>
+        <fieldset class="grupo">
+            <div>
+                <label for="nome"><strong>Nome</strong></label>
+                <input type="text" nome="sobrenome" id="sobrenome">
+            </div>
+        
+            <div class="campo">
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" nome="Sobrenome" id="Sobrenome">
+            </div>
+        </fieldset>
+
+        <div class="campo">
+            <label for="email">Email</label>
+            <input type="email" nome="email" id="email">
+        </div>
+
+        <div class="campo">
+            <label>Qual método você prefere?</label>
+            <label>
+                <input type="radio" nome="devweb" value="Molde F1">Molde F1
+            </label>
+            <label>
+                <input type="radio" nome="devweb" value="Gel na Tips">Gel na Tips
+            </label>
+            <label>
+                <input type="radio" nome="devweb" value="Fibra de Vidro">Fibra de Vidro
+            </label>
+        </div>
+        
+        <div class="campo">
+            <label for="senioridade"><strong>Como conheceu meu trabalho?</strong></label>
+            <select id="senioridade">
+                <option selected disable value="">Selectione</option>
+                <option>Redes Sociais</option>
+                <option>Indicações</option>
+                <option>Mapas</option>
+            </select>
+        </div>
+
+        <fieldset class="grupo">
+            <div class="campo">
+                <label><strong>Selecione: Saúde e Hábitos</strong></label><br>
+                <input type="checkbox" id="tecnologia1" nome="tecnologia1" value="Roe as unhas?">
+                <label for="tecnologia1">Roe as unhas</label>
+                <input type="checkbox" id="tecnologia2" nome="tecnologia2" value="Digita com frequência?">
+                <label for="tecnologia2">Digita com frequência</label>
+                <input type="checkbox" id="tecnologia3" nome="tecnologia3" value="Possui alergias?">
+                <label for="tecnologia3">Possui alergias</label>
+                <input type="checkbox" id="tecnologia4" nome="tecnologia4" value="Possui ou tem histórico de Fungos?">
+                <label for="tecnologia4">Possui ou tem histórico de Fungos?</label>
+                <input type="checkbox" id="tecnologia5" nome="tecnologia5" value="Pratica muitos esportes?">
+                <label for="tecnologia5">Pratica muitos esportes?</label>
+                <input type="checkbox" id="tecnologia6" nome="tecnologia6" value="Tem problemas de sensibilidade nas mãos?">
+                <label for="tecnologia6">Tem problemas de sensibilidade nas mãos?</label>
+            </div>
+        </fieldset>
+
+        <div class="campo">
+            <br>
+            <label><strong>Conte um pouco da sua experiência:</strong></label>
+            <textarea row="6" style="width: 26em" id="experiencia" nome="experiencia">
